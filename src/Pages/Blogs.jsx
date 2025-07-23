@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 
@@ -17,6 +18,9 @@ export default function Blogs() {
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Recusandae veniam temporibus cumque sunt porro odio.
                   </p>
+                  <Link to="/blogs/1" className="btn btn-primary">
+                    Read More
+                  </Link>
                 </div>
               </div>
             </div>
@@ -28,6 +32,9 @@ export default function Blogs() {
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Recusandae veniam temporibus cumque sunt porro odio.
                   </p>
+                  <Link to="/blogs/2" className="btn btn-primary">
+                    Read More
+                  </Link>
                 </div>
               </div>
             </div>
@@ -40,6 +47,9 @@ export default function Blogs() {
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                       Recusandae veniam temporibus cumque sunt porro odio.
                     </p>
+                    <Link to="/blogs/3" className="btn btn-primary">
+                      Read More
+                    </Link>
                   </div>
                 </div>
               </div>
